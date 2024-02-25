@@ -8,7 +8,7 @@ public static class PhoneNumberProcessor
     private const int PhoneCol = 0;
     private const int ResultCol = 1;
     private const string BadNumberValue = "ПРОВЕРИТЬ";
-    
+
 
     public static void ProcessPhones(this List<string[]> table)
     {

@@ -11,6 +11,7 @@ namespace ExcelRecast
             var table = er.Read();
             
             table.ProcessPhones();
+            table.ProcessMails();
             
             using var ew = new ExcelOverwritter("/home/demyan/Desktop/a.xlsx");
             ew.Write(table);
