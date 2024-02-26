@@ -30,5 +30,4 @@ public static class NameProcessor
 
         return BadNameValue;
     }
-
 }

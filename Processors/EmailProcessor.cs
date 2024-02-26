@@ -29,7 +29,7 @@ public static class EmailProcessor
 
     private static string VerdictFor(string mail)
     {
-        if(mail is null || !IsValid(mail)) return BadMailValue;
+        if (mail is null || !IsValid(mail)) return BadMailValue;
         if (IsCorporateMail(mail)) return CorporateMailValue;
         return ConsumerMailValue;
     }
