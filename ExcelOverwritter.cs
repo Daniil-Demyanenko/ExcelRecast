@@ -32,10 +32,9 @@ public class ExcelOverwritter: IDisposable
     }
 
 
-    public void Dispose()//TODO: нормальный save()
+    public void Dispose()
     {
-        // _wb.Save();
-        _wb.SaveAs(@"/home/demyan/Desktop/b.xlsx");
+        _wb.Save();
         _wb.Dispose();
     }
 }
